@@ -297,33 +297,33 @@ with col_strategy:
     with tab1:
         st.markdown(
             '<div class="phase-card phase-1">'
-            '<p class="phase-title">Phase 1 — Deploy Sufficient Stations (Q3 2026)</p>'
-            '<p class="phase-body">Build immediately where grid capacity is already available — '
-            'no substation work required. These locations can break ground now. '
-            'Prioritise corridors crossing Leader provinces (Madrid, Barcelona, Valencia) '
-            'to lock in Iberdrola market share before Repsol and Endesa X scale up.</p>'
+            '<p class="phase-title">Phase 1 — Self-authorise i-DE Congested Nodes (Q3 2026)</p>'
+            '<p class="phase-body">Initiate substation upgrades at the 5 Congested nodes where i-DE '
+            '(Iberdrola\'s own distribution subsidiary) manages the grid — IBE_020 (AP-9, A Coruña), '
+            'IBE_022 (AP-7N, Castellón), IBE_024 (A-3, Madrid–Valencia), IBE_030 (N-332, Alicante), '
+            'IBE_031 (AP-68, Bilbao). No third-party approval needed — cuts the standard 18–24 month '
+            'process to weeks. Each node earns a grid upgrade fee + charging revenue simultaneously.</p>'
             '</div>',
             unsafe_allow_html=True,
         )
         st.markdown(
             '<div class="phase-card phase-2">'
-            '<p class="phase-title">Phase 2 — Upgrade i-DE Congested Nodes (Q4 2026)</p>'
-            '<p class="phase-body">Initiate substation upgrades at Congested locations where '
-            'i-DE manages the grid — AP-9 (A Coruña), AP-7N, A-3, N-332, AP-68. '
-            'Because i-DE is Iberdrola\'s own distribution subsidiary, these upgrades '
-            'bypass third-party approval entirely. '
-            'Grid upgrade revenue + charging revenue at the same node.</p>'
+            '<p class="phase-title">Phase 2 — Negotiate External Congested Nodes (Q4 2026)</p>'
+            '<p class="phase-body">Open negotiations with Endesa and Viesgo for the 5 remaining '
+            'Congested nodes — IBE_014 (A-4, Cádiz), IBE_016 (A-49, Huelva/Portugal border), '
+            'IBE_017 (AP-7N, Girona/France border), IBE_023 (A-7, Málaga), IBE_029 (N-260, Pyrenees). '
+            'These are high-traffic corridors that cannot be skipped for AFIR compliance. '
+            'EU TEN-T corridor status strengthens the regulatory co-financing case.</p>'
             '</div>',
             unsafe_allow_html=True,
         )
         st.markdown(
             '<div class="phase-card phase-3">'
-            '<p class="phase-title">Phase 3 — Coordinate Remaining Congested Nodes (2027)</p>'
-            '<p class="phase-body">Negotiate grid reinforcement with Endesa and Viesgo for the '
-            'remaining Congested locations — A-4, A-49, AP-7N (Endesa grid). '
-            'In parallel, activate Moderate stations as minor upgrades complete. '
-            'Focus on corridors in high-CAGR Emerging provinces: Badajoz (49.8%), '
-            'Albacete (46.9%), Guadalajara (36.6%).</p>'
+            '<p class="phase-title">Phase 3 — Activate Moderate Stations (2027)</p>'
+            '<p class="phase-body">As i-DE and external upgrades complete, activate the remaining '
+            'Moderate-grid stations across all corridors. Re-run composite scoring quarterly as new '
+            'DGT charger data is published. Expand focus to high-CAGR Emerging provinces: '
+            'Badajoz (49.8%), Albacete (46.9%), Guadalajara (36.6%), Cuenca (34.1%).</p>'
             '</div>',
             unsafe_allow_html=True,
         )
